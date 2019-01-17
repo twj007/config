@@ -1,0 +1,17 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/twj007/config
+          searchPaths: configs
+          label: master
+          username: jien007
+          password: jientank8316800
+ test:
+    demo: 123
