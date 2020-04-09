@@ -1,14 +1,14 @@
 test:
   demo: xxx
 sso:
-  login_url: http://service-sso/toLogin?redirect_url=
-  auth_url: http://service-sso/login/authentication?token=
+  login_url: http://tu:8763/toLogin?redirect_url=
+  auth_url: http://tu:8763/login/authentication?token=
 
 #注册中心地址
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8761/eureka
+      defaultZone: http://tu:8761/eureka
   healthcheck:
     enabled: true
     registry-fetch-interval-seconds: 10000 #间隔多久去拉取服务注册信息，默认为30秒
