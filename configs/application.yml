@@ -1,5 +1,5 @@
 test:
-  demo: xxx
+  demo: aaa
 sso:
   login_url: http://sso-service/toLogin?redirect_url=
   auth_url: http://sso-service/login/authentication?token=
