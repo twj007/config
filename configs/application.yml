@@ -1,8 +1,8 @@
 test:
   demo: xxx
 sso:
-  login_url: http://tu:8763/toLogin?redirect_url=
-  auth_url: http://tu:8763/login/authentication?token=
+  login_url: http://sso-service/toLogin?redirect_url=
+  auth_url: http://sso-service/login/authentication?token=
 
 #注册中心地址
 eureka:
