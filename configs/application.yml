@@ -3,7 +3,7 @@ test:
 sso:
   login_url: http://service-sso/toLogin?redirect_url=
   auth_url: http://service-sso/login/authentication?token=
-  redirect_url: http://tu/auth
+  redirect_url: http://tu/auth?redirect_url=
 
 #注册中心地址
 eureka:
