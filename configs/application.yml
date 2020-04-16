@@ -1,5 +1,5 @@
 test:
-  demo: ccc
+  demo: bbb
 sso:
   login_url: http://tu:8763/toLogin?redirect_url=
   auth_url: http://service-sso/login/authentication?token=
