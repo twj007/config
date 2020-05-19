@@ -1,2 +1,6 @@
 test:
   demo: dev-properties
+sso:
+  login_url: http://tu/toLogin?redirect_url=
+  auth_url: http://service-sso/login/authentication?token=
+  token_url: http://service-sso/login
